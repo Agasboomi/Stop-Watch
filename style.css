@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(22, 21, 21);
+    /* font-size: 30px; */
+    
+}
+
+.main{
+    border: 4px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgb(250, 250, 73);
+    
+}
+
+#text{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#time{
+   font-size: 40px;
+   text-align: center;
+   font-weight: bold;
+   font-family: monospace;
+   color:rgb(69, 67, 67)
+}
+
+#but{
+   text-align: center;
+   padding: 10px;  
+}
+
+#start{
+    background-color: rgb(39, 215, 39);
+    padding: 10px;
+}
+
+#stop{
+    background-color: rgb(236, 15, 15);
+    padding: 10px;
+}
+
+#restart{
+    background-color: aqua;
+    padding: 10px;
+}
+
+button{
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
